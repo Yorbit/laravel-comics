@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    ;
+}
+
+@mixin generalContainer {
+    width: 80%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+$brandColor: #0282F9;
+$brandSecondaryColor: #FFFFFF;
+$textColor: #89949e;
